@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual env
+.env
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# If you're collecting static with whitenoise or collectstatic
+/static/
+
+# Environ
+*.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+**/postgres_data/
+**/pgdata/
+
+# OS
+.DS_Store
+Thumbs.db
